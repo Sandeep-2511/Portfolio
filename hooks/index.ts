@@ -1,2 +1,3 @@
-// Central hook exports for reusable business logic and side effects.
-export {};
+// Custom hooks barrel exports
+export { useTyping } from "./useTyping";
+export { useNavbarHide } from "./useNavbarHide";
