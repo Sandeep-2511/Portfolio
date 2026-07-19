@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Code, Briefcase, Mail } from "lucide-react";
 import { Button } from "@/components/ui";
 import { useTyping } from "@/hooks";
+import Image from "next/image";
 import { TYPING_WORDS, TYPING_SPEED, TYPING_DELETE_SPEED, TYPING_DELAY_BETWEEN_WORDS, SOCIAL_LINKS } from "@/constants/nav";
 
 /**
@@ -108,7 +109,7 @@ const Hero: FC = () => {
               variants={itemVariants}
               className="text-lg text-gray-400 max-w-lg leading-relaxed"
             >
-              Full Stack Developer with 3.9 years of experience building and modernizing
+              Full Stack Developer with 3.10 years of experience building and modernizing
               enterprise web applications using React.js, Angular, ASP.NET Core, SQL Server,
               and AWS.
             </motion.p>
@@ -179,15 +180,15 @@ const Hero: FC = () => {
                   </div>
 
                   {/* Image (when available) */}
-                  {/* 
+                  {
                   <Image
-                    src="/profile.jpg"
+                    src="/images/profile.jpeg"
                     alt="Sandeep"
                     fill
                     className="object-cover"
                     priority
                   />
-                  */}
+                  }
                 </div>
               </div>
 

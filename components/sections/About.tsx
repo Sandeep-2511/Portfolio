@@ -5,6 +5,7 @@ import type { Variants } from "framer-motion";
 import { motion } from "framer-motion";
 import { SectionWrapper, SectionTitle, StatCard, TimelineItem } from "@/components/ui";
 import { ABOUT_STATS, ABOUT_TIMELINE } from "@/data/sections";
+import Image from "next/image";
 
 /**
  * About section with professional introduction, statistics, and journey timeline
@@ -71,10 +72,14 @@ const About: FC = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-violet-500/20 rounded-3xl blur-2xl" />
 
             <div className="relative bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-1 overflow-hidden shadow-2xl">
-              <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-blue-500/30 to-violet-500/30 flex items-center justify-center">
-                <div className="flex items-center justify-center w-full h-full bg-gradient-to-br from-gray-800 to-gray-900">
-                  <div className="text-gray-600 text-6xl font-bold">SP</div>
-                </div>
+              <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-blue-500/30 to-violet-500/30">
+                <Image
+                    src="/images/profile.jpeg"
+                    alt="Sandeep"
+                    fill
+                    priority
+                    className="object-cover"
+                    />
               </div>
             </div>
 
@@ -95,7 +100,7 @@ const About: FC = () => {
           {/* Introduction */}
           <div>
             <p className="text-lg text-gray-300 leading-relaxed mb-4">
-              I&apos;m a Full Stack Developer with 3.9 years of experience building and modernizing
+              I&apos;m a Full Stack Developer with 3.10 years of experience building and modernizing
               enterprise web applications across React.js, Angular, ASP.NET Core, SQL Server, and AWS.
               My work focuses on practical systems that are maintainable, performant, and clear for users.
             </p>

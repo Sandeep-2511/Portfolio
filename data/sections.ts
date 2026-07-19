@@ -30,7 +30,7 @@ export const ABOUT_TIMELINE: TimelineEvent[] = [
 
 // Stats for About Section
 export const ABOUT_STATS: StatCard[] = [
-  { label: "Years Experience", value: "3.9" },
+  { label: "Years Experience", value: "3.10" },
   { label: "Enterprise Roles", value: "2" },
   { label: "Certifications", value: "3" },
   { label: "Cloud Platforms", value: "AWS" },
