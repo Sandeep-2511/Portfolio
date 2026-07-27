@@ -100,7 +100,7 @@ const About: FC = () => {
           {/* Introduction */}
           <div>
             <p className="text-lg text-gray-300 leading-relaxed mb-4">
-              I&apos;m a Full Stack Developer with 3.10 years of experience building and modernizing
+              I&apos;m a Full Stack Developer with 4 years of experience building and modernizing
               enterprise web applications across React.js, Angular, ASP.NET Core, SQL Server, and AWS.
               My work focuses on practical systems that are maintainable, performant, and clear for users.
             </p>

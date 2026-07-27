@@ -109,7 +109,7 @@ const Hero: FC = () => {
               variants={itemVariants}
               className="text-lg text-gray-400 max-w-lg leading-relaxed"
             >
-              Full Stack Developer with 3.10 years of experience building and modernizing
+              Full Stack Developer with 4 years of experience building and modernizing
               enterprise web applications using React.js, Angular, ASP.NET Core, SQL Server,
               and AWS.
             </motion.p>
